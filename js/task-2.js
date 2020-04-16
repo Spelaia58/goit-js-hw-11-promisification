@@ -4,7 +4,7 @@ const users = [
     { name: "Ajax", active: true },
     { name: "Lux", active: false },
 ];
-const toggleUserState = (allUsers, userName, callback) => {
+const toggleUserState = (allUsers, userNamegit add .) => {
     return new Promise((resolve) => {
         const updatedUsers = allUsers.map((user) =>
             user.name === userName ? { ...user, active: !user.active } : user
